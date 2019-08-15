@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    background: #f2f2f2;
+}
+
+section{
+    width: 100%;
+    height: 150vh;  
+    background: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 200px;
+}
+
+h1{
+    width: 50%;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.container > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 30%;
+    width: 100%;
+}
+
+.container > div div{
+    width: 30%;
+    height: 80%;
+    background: black;
+}
